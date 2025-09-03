@@ -1,4 +1,3 @@
-#structure of a workflow
 name: NameOfWorkFlow
 on: push
 jobs: 
