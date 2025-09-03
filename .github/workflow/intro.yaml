@@ -8,6 +8,6 @@ jobs:
     steps:
     -  name: gitVersion
         run: git version
-    - name:mavenVersion
-        run:mvn version
+    - name: mavenVersion
+        run: mvn version
         
