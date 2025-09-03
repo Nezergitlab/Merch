@@ -1,4 +1,4 @@
-name: NameOfWorkFlow
+name: git
 on: push
 jobs: 
     getservice versions:
