@@ -1,4 +1,4 @@
-name: git
+name: intro
 on: push
 jobs: 
     getservice versions:
