@@ -11,16 +11,3 @@ jobs:
         run: git version
       - name: mavenVersion
         run: mvn --version
-
-    getimage:
-        runs-on: ubuntu-latest
-
-        steps:
-        - name: getDockerVersion
-          run: docker --version
-
-        -name: pullmySQL.Img
-         run: docker pull mysql
-
-        -name: createDockerContainer
-         run: docker run -d --name digi 'MYSQL_ROOT_PASSWORD=1234' mysql
