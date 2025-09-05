@@ -19,8 +19,7 @@ jobs:
         - name: getDockerVersion
           run: docker --version
 
-        -name: pullmySQLImg
-         run: docker_pull_mysql
+        - name: Docker pull mysql
 
         -name: createDockerContainer
-         run: docker run -d --name plus -e 'MYSQL_ROOT_PASSWORD=1234' mysql
+         run: Docker run -d --name plus -e 'MYSQL_ROOT_PASSWORD=1234' mysql
