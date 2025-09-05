@@ -1,5 +1,5 @@
 name: intro
-on: push
+on: workflow_dispatch
 
 jobs:
 
