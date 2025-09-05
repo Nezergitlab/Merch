@@ -23,4 +23,4 @@ jobs:
          run: docker pull mysql
 
         -name: createDockerContainer
-         run: docker run -d --name digi "MYSQL_ROOT_PASSWORD=1234" mysql
+         run: docker run -d --name digi 'MYSQL_ROOT_PASSWORD=1234' mysql
