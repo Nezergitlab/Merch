@@ -24,5 +24,4 @@ jobs:
 
         - name: createDockerContainer
           run: docker run -d --name egg -e 'MYSQL_ROOT_PASSWORD=1234' mysql
-        - 
 
