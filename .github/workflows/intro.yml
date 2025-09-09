@@ -22,4 +22,3 @@ jobs:
               docker --version
               docker pull mysql
               docker run -d --name egg -e 'MYSQL_ROOT_PASSWORD=1234' mysql
-
